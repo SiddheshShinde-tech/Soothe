@@ -1,0 +1,5 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    contain: content;
+}
