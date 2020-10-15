@@ -1,22 +1,20 @@
 import React from "react";
-import "./App.css";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar/Navbar";
-import Img from "./components/Img.png";
-import background from "./components/images/show_everyone.jpeg";
+import './App.css'
+import Footer from "../src/Components/Footer";
+import Navbar from "../src/Components/Navbar/Navbar";
+import Img from "../src/Components/Img.png"
+import background from "../src/Components/images/show_everyone.jpeg";
+import Maincard from "../src/MainpageCards/Maincard"
 
 function App() {
   return (
     <div>
     <div className="App">
-      <Navbar />
+      <Navbar></Navbar>
       <img className="image" src={background} alt="background-image" />
     </div>
     <div>
-      {/* Kept for Ananya */}
-      <br></br>
-      <br></br>
-      <br></br>
+      <Maincard></Maincard>
       <br></br>
     </div>
     <div className="page-container">
@@ -34,5 +32,5 @@ function App() {
     </div>
   );
 }
- 
 export default App;
+
