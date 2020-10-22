@@ -11,6 +11,11 @@
   height: 100%;
 }
 
+.forNavbar{
+  position: relative;
+  z-index: 110;
+}
+
 .App {
   text-align: center;
 }

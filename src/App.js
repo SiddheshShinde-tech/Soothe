@@ -9,7 +9,7 @@ import Maincard from "../src/MainpageCards/Maincard"
 function App() {
   return (
     <div>
-    <div className="App">
+    <div className="forNavbar">
       <Navbar></Navbar>
       <img className="image" src={background} alt="background-image" />
     </div>
@@ -33,4 +33,3 @@ function App() {
   );
 }
 export default App;
-
