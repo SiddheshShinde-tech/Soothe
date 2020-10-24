@@ -1,10 +1,11 @@
 import React from "react";
-import './App.css'
+import './App.css';
 import Footer from "../src/Components/Footer";
 import Navbar from "../src/Components/Navbar/Navbar";
-import Img from "../src/Components/Img.png"
+import Img from "../src/Components/Img.png";
 import background from "../src/Components/images/show_everyone.jpeg";
-import Maincard from "../src/MainpageCards/Maincard"
+import Maincard from "../src/MainpageCards/Maincard";
+import SignInSide from "./Components/login/logIn";  // Login Page Component
 
 function App() {
   return (
@@ -13,10 +14,16 @@ function App() {
       <Navbar></Navbar>
       <img className="image" src={background} alt="background-image" />
     </div>
+
     <div>
       <Maincard></Maincard>
       <br></br>
     </div>
+
+    <div>
+      <SignInSide></SignInSide>
+    </div>
+
     <div className="page-container">
       <div className="content-wrap"></div>
       <div className="Footer-img" style={{backgroundImage: `url(${Img})`}}>

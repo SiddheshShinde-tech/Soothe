@@ -3,12 +3,22 @@ import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
 
+function handleSignup()
+{
+    alert("Hello");
+}
+
 class Navbar extends Component {
     state = { clicked: false }
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
+
+    // handleSignup()
+    // {
+    //     alert("Hello");
+    // }
 
     render() {
         return(
@@ -28,7 +38,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>Sign Up</Button>
+                <Button onClick={handleSignup}>Sign Up</Button>
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>
