@@ -13,6 +13,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import logoapp from "./image/logo5.png";
+import {Link as Linked} from 'react-router-dom'
 
 function Copyright() {
   return (
@@ -118,6 +119,7 @@ export default function SignInSide() {
             >
               Sign In
             </Button>
+
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2">
@@ -130,6 +132,8 @@ export default function SignInSide() {
                 </Link>
               </Grid>
             </Grid>
+            <center><Linked to='/homepage'>Sign Up</Linked></center>
+
             <Box mt={5}>
               <Copyright />
             </Box>
