@@ -1,3 +1,6 @@
+body{
+    background: radial-gradient(#ffc4c6, #ffff, #ffc4c6);
+}
 .card{
     width: 19rem;
     height: 22rem;
