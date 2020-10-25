@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
-import {Link} from 'react-router-dom'
-
-function handleSignup()
-{
-    alert("Hello");
-}
 
 function handleSignup()
 {
@@ -44,11 +38,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-
-                <Link to='/signup'>Sign Up</Link>
-
                 <Button onClick={handleSignup}>Sign Up</Button>
-
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>

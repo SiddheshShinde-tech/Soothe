@@ -1,6 +1,5 @@
 import React from 'react'
 import './cardstyle.css'
-import {Link} from 'react-router-dom'
 
 const CardUi = props => {
   return(
@@ -14,7 +13,7 @@ const CardUi = props => {
             {props.title}
           </h4>
           <p className="card-text text-secondary">{props.description}</p>
-          <Link to='/signup' class="round-button">Explore</Link>
+          <a href="http://example.com" class="round-button">Explore</a>
           </div>
         </div>
     </div>
