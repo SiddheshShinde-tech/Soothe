@@ -4,22 +4,12 @@ import { Button } from "../Button"
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 
-function handleSignup()
-{
-    alert("Hello");
-}
-
 class Navbar extends Component {
     state = { clicked: false }
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
-
-    // handleSignup()
-    // {
-    //     alert("Hello");
-    // }
 
     render() {
         return(
@@ -40,10 +30,10 @@ class Navbar extends Component {
                     })}
                 </ul>
 
-                <Link to='/signup'>Sign Up</Link>
+                <Link to='/signup'><Button>Sign Up</Button></Link>
 
-                <Button onClick={handleSignup}>Sign Up</Button>
-
+                {/* <Button onClick={handleSignup}>Fign Up</Button> */}
+                
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>
