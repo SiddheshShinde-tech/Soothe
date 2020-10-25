@@ -9,6 +9,11 @@ function handleSignup()
     alert("Hello");
 }
 
+function handleSignup()
+{
+    alert("Hello");
+}
+
 class Navbar extends Component {
     state = { clicked: false }
 
@@ -39,7 +44,11 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
+
                 <Link to='/signup'>Sign Up</Link>
+
+                <Button onClick={handleSignup}>Sign Up</Button>
+
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>

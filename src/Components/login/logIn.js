@@ -110,7 +110,15 @@ export default function SignInSide() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-
+            <Button onClick={handleClick}
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+              Sign In
+            </Button>
 
             <Grid container>
               <Grid item xs>
@@ -125,6 +133,7 @@ export default function SignInSide() {
               </Grid>
             </Grid>
             <center><Linked to='/homepage'>Sign Up</Linked></center>
+
             <Box mt={5}>
               <Copyright />
             </Box>
