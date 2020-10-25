@@ -1,6 +1,6 @@
-import React from 'react'
-import { Card } from 'react-bootstrap'
-import './sidebar.css'
+import React from 'react';
+// import { Card } from 'react-bootstrap';
+import './sidebar.css';
 
 
 const HomepageSidebar = (props) => {

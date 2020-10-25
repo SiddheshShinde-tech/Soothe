@@ -6,12 +6,12 @@ import Main from "./main";
 import HomepageMain from "./Homepage/HomepageMain/Mainhome";
 import Doctormainpage from "./HomepageSubparts/Doctors/doctorsmainpage";
 
-import Footer from "../src/Components/Footer";
-import Navbar from "../src/Components/Navbar/Navbar";
-import Img from "../src/Components/Img.png";
-import background from "../src/Components/images/show_everyone.jpeg";
-import Maincard from "../src/MainpageCards/Maincard";
-import SignInSide from "./Components/login/logIn";  // Login Page Component
+// import Footer from "../src/Components/Footer";
+// import Navbar from "../src/Components/Navbar/Navbar";
+// import Img from "../src/Components/Img.png";
+// import background from "../src/Components/images/show_everyone.jpeg";
+// import Maincard from "../src/MainpageCards/Maincard";
+// import SignInSide from "./Components/login/logIn";  // Login Page Component
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Route path='/homepage' component={HomepageMain}></Route>
       <Route path='/expertdoctors' component={Doctormainpage}></Route>
       
-    <div className="forNavbar">
+    {/* <div className="forNavbar">
       <Navbar></Navbar>
       <img className="image" src={background} alt="background-image" />
     </div>
@@ -30,13 +30,13 @@ function App() {
     <div>
       <Maincard></Maincard>
       <br></br>
-    </div>
+    </div> */}
 
-    <div>
+    {/* <div>
       <SignInSide></SignInSide>
-    </div>
+    </div> */}
 
-    <div className="page-container">
+    {/* <div className="page-container">
       <div className="content-wrap"></div>
       <div className="Footer-img" style={{backgroundImage: `url(${Img})`}}>
         <div className="Footer-img-content">
@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
       <Footer />
-    </div>
+    </div> */}
 
     </div>
 

@@ -9,11 +9,6 @@ function handleSignup()
     alert("Hello");
 }
 
-function handleSignup()
-{
-    alert("Hello");
-}
-
 class Navbar extends Component {
     state = { clicked: false }
 
