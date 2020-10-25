@@ -28,11 +28,6 @@ function Copyright() {
   );
 }
 
-function handleClick()   // Function for Ananya to handle when user clicks on Sign Up Button
-{
-    alert("Sign up - Modify Ananya");
-}
-
 const useStyles = makeStyles((theme) => ({
   root: {
     height: '100vh',
@@ -110,7 +105,8 @@ export default function SignInSide() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Button onClick={handleClick}
+            <Linked to='/homepage'>
+            <Button
               type="submit"
               fullWidth
               variant="contained"
@@ -118,7 +114,7 @@ export default function SignInSide() {
               className={classes.submit}
             >
               Sign In
-            </Button>
+            </Button></Linked>
 
             <Grid container>
               <Grid item xs>
@@ -132,7 +128,6 @@ export default function SignInSide() {
                 </Link>
               </Grid>
             </Grid>
-            <center><Linked to='/homepage'>Sign Up</Linked></center>
 
             <Box mt={5}>
               <Copyright />

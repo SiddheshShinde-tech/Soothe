@@ -32,8 +32,6 @@ class Navbar extends Component {
 
                 <Link to='/signup'><Button>Sign Up</Button></Link>
 
-                {/* <Button onClick={handleSignup}>Fign Up</Button> */}
-                
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>
