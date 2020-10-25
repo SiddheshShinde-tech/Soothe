@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
+import {Link} from 'react-router-dom'
+
+function handleSignup()
+{
+    alert("Hello");
+}
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -9,6 +15,11 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
+
+    // handleSignup()
+    // {
+    //     alert("Hello");
+    // }
 
     render() {
         return(
@@ -20,7 +31,7 @@ class Navbar extends Component {
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
-                            <li key={index}>
+                            <li className="navba-links" key={index}>
                                 <a className={item.cName} href={item.url}>
                                 {item.title}
                                 </a>
@@ -28,7 +39,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>Sign Up</Button>
+                <Link to='/signup'>Sign Up</Link>
             </nav>
             {/* <img className="image" src={background} alt="background-image" /> */}
             </div>

@@ -20,6 +20,11 @@
     cursor: pointer;
 }
 
+.navba-links   
+{
+    margin-top: 1rem;
+}
+
 .fa-react {
     margin-left: 0.5rem;
     font-size: 1.6rem;

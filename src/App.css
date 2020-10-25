@@ -11,12 +11,22 @@
   height: 100%;
 }
 
+.forNavbar{
+  position: relative;
+  z-index: 110;
+}
+
 .App {
   text-align: center;
 }
  
 .App-logo {
   height: 40vmin;
+  pointer-events: none;
+}
+
+.login-logo{
+  height: 13vmin;
   pointer-events: none;
 }
 
