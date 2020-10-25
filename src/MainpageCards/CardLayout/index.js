@@ -6,7 +6,6 @@ import assessment from "../assets/assessment.jpg"
 import tracker from "../assets/medtrack.jpg"
 import doctors from "../assets/doctors.jpg"
 import CardUi from '../CardUi/CardUi'
-
 import './style.css'
 
 
@@ -14,7 +13,7 @@ import './style.css'
 class CardLayout extends Component {
  render() {
   return(
-      <div>
+      <div className="manincont">
    <div className="container-fluid d-flex justify-content-center">
        <div className="row">
            <div className="col-md-4">

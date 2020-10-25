@@ -1,0 +1,33 @@
+.sidebarContainer2{
+    width: 22%;
+    position: fixed;
+}
+
+.cardbody2{
+    padding-top: 15px;
+}
+.cardHeader2{
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+
+.personalBio2{
+    font-size: 16px;
+    color: #565673;
+    font-weight: 350;
+}
+.achieve{
+    text-align: left;
+}
+.submenu{
+    border-bottom: 1px gray;
+}
+.submenu :hover{
+    background: red;
+}
