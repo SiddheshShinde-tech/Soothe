@@ -1,10 +1,11 @@
 import React from "react";
-import './App.css';
-import SignInSide from "./Components/login/logIn";  // Login Page Component
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import "./App.css";
+import SignInSide from "./Components/login/logIn"; // Login Page Component
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Main from "./main";
 import HomepageMain from "./Homepage/HomepageMain/Mainhome";
 import Doctormainpage from "./HomepageSubparts/Doctors/doctorsmainpage";
+import Post from "./containers/Post";
 
 // import Footer from "../src/Components/Footer";
 // import Navbar from "../src/Components/Navbar/Navbar";
@@ -15,14 +16,13 @@ import Doctormainpage from "./HomepageSubparts/Doctors/doctorsmainpage";
 
 function App() {
   return (
-
     <div>
-      <Route exact path='/' component={Main}></Route>
-      <Route path='/signup' component={SignInSide}></Route>
-      <Route path='/homepage' component={HomepageMain}></Route>
-      <Route path='/expertdoctors' component={Doctormainpage}></Route>
-      
-    {/* <div className="forNavbar">
+      <Route exact path="/" component={Main}></Route>
+      <Route path="/signup" component={SignInSide}></Route>
+      <Route path="/homepage" component={HomepageMain}></Route>
+      <Route path="/expertdoctors" component={Doctormainpage}></Route>
+      <Route path="/post/:postId" component={Post} />
+      {/* <div className="forNavbar">
       <Navbar></Navbar>
       <img className="image" src={background} alt="background-image" />
     </div>
@@ -32,11 +32,11 @@ function App() {
       <br></br>
     </div> */}
 
-    {/* <div>
+      {/* <div>
       <SignInSide></SignInSide>
     </div> */}
 
-    {/* <div className="page-container">
+      {/* <div className="page-container">
       <div className="content-wrap"></div>
       <div className="Footer-img" style={{backgroundImage: `url(${Img})`}}>
         <div className="Footer-img-content">
@@ -48,10 +48,7 @@ function App() {
       </div>
       <Footer />
     </div> */}
-
     </div>
-
-
   );
 }
 export default App;
