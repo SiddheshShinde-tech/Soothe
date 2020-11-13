@@ -1,6 +1,7 @@
 import React from 'react'
 import './assessmentstyle.css'
 import assessmentHome from '../../HomepageAssets/assessmentHome.jpg'
+import {Link} from 'react-router-dom'
 
 const Assignment = props => {
     return (
@@ -18,8 +19,10 @@ const Assignment = props => {
             <p className="AssignmentDescriptionContent">Think about the last two weeks, rather than just today or yesterday. Take this self-test to help figure out whether you’re showing any of the warning signs of depression. This won’t give you a diagnosis but it will help you decide the next step.</p>
             <br></br>
             <div className="Assignmentbtn">
-            <a href="http://example.com" class="round-button">Depression Test</a>
-            <a href="http://example.com" class="round-button">Anxiety Test</a>
+            <a href="/depressionTest" class="round-button">Depression Test</a>
+            
+            <Link to="/anxietyTest" class="round-button">Anxiety Test</Link>
+            
         </div>
           </div>
         </div>

@@ -1,0 +1,34 @@
+.App-logo-assessment {
+  /* animation: spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header-assessment {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  /* height: 25%; */
+}
+ 
+.App-intro {
+  font-size: medium;
+}
+
+.text{
+  margin-top: 2rem;
+  /* font-weight: 900; */
+}
+
+.common{
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

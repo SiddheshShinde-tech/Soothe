@@ -1,13 +1,15 @@
 .main-footer {
-  color: white;
+  color: black;
   background-color: #fa9a9a;
+  
   padding-top: 2em;
   padding-bottom: 1em;
   position: relative;
   width: 100%;
 }
 .footer2 {
-  color: white;
+  /* color: white; */
+  color:black;
   background-color: #f98282;
   padding-top: 1em;
   padding-bottom: 0em;

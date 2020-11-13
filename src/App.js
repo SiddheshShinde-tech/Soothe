@@ -6,13 +6,8 @@ import Main from "./main";
 import HomepageMain from "./Homepage/HomepageMain/Mainhome";
 import Doctormainpage from "./HomepageSubparts/Doctors/doctorsmainpage";
 import Post from "./containers/Post";
-
-// import Footer from "../src/Components/Footer";
-// import Navbar from "../src/Components/Navbar/Navbar";
-// import Img from "../src/Components/Img.png";
-// import background from "../src/Components/images/show_everyone.jpeg";
-// import Maincard from "../src/MainpageCards/Maincard";
-// import SignInSide from "./Components/login/logIn";  // Login Page Component
+import FirstTest from "./HomepageSubparts/Assessment/src/index-assessment";
+import SecondTest from "./HomepageSubparts/Assessment/src/App-assessment-two";
 
 function App() {
   return (
@@ -22,32 +17,8 @@ function App() {
       <Route path="/homepage" component={HomepageMain}></Route>
       <Route path="/expertdoctors" component={Doctormainpage}></Route>
       <Route path="/post/:postId" component={Post} />
-      {/* <div className="forNavbar">
-      <Navbar></Navbar>
-      <img className="image" src={background} alt="background-image" />
-    </div>
-
-    <div>
-      <Maincard></Maincard>
-      <br></br>
-    </div> */}
-
-      {/* <div>
-      <SignInSide></SignInSide>
-    </div> */}
-
-      {/* <div className="page-container">
-      <div className="content-wrap"></div>
-      <div className="Footer-img" style={{backgroundImage: `url(${Img})`}}>
-        <div className="Footer-img-content">
-          <p>Get in touch</p>
-          <button type="button" class="btn btn-outline-info btn-sm">
-            Contact us
-          </button>
-        </div>
-      </div>
-      <Footer />
-    </div> */}
+      <Route path="/anxietyTest" component={FirstTest}></Route>
+      <Route path="/depressionTest" component={SecondTest}></Route>
     </div>
   );
 }
