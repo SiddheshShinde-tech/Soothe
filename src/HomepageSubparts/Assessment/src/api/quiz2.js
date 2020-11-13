@@ -226,4 +226,4 @@ var quizQuestionsSet2 = [
 }
   ];
   
-  export default quizQuestionsSet2;
+export default quizQuestionsSet2;
