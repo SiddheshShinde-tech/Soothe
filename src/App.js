@@ -8,7 +8,9 @@ import Doctormainpage from "./HomepageSubparts/Doctors/doctorsmainpage";
 import Post from "./containers/Post";
 import FirstTest from "./HomepageSubparts/Assessment/src/index-assessment";
 import SecondTest from "./HomepageSubparts/Assessment/src/App-assessment-two";
-
+import SelfTrack from "./HomepageSubparts/Self Tracking/welcome";
+import TypeOfDisorder from "./HomepageSubparts/Self Tracking/disorderType";
+ 
 function App() {
   return (
     <div>
@@ -19,6 +21,8 @@ function App() {
       <Route path="/post/:postId" component={Post} />
       <Route path="/anxietyTest" component={FirstTest}></Route>
       <Route path="/depressionTest" component={SecondTest}></Route>
+      <Route path="/welcome" component={SelfTrack}></Route>
+      <Route path="/selectoption" component={TypeOfDisorder}></Route>
     </div>
   );
 }

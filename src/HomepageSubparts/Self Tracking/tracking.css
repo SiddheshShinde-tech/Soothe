@@ -1,0 +1,106 @@
+
+.topbar{
+    /* height: 5%; */
+    color: white;
+    background-color: #f98282;
+    /* background-color: #cd84f1; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
+    margin-bottom: 0px;
+    /* font-family: 'Montserrat', sans-serif; */
+    padding-left: 1.5rem;
+    
+}
+
+.FullDivision{
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+}
+
+.MainDivisionSid{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.belowtopbar
+{
+    text-align: center;
+background-color: #fa9a9a;
+color: white;
+font-weight: bolder;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+height: 30%;
+padding: 2.8% 0 2.8% 0;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.image-handle{
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.welcome-area
+{
+    width: 40%;
+}
+
+.text-area{
+    color: black;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.image-area{
+    padding-top: 2rem;
+    padding-left: 7rem;
+
+}
+
+.welcome-image
+{
+    
+    text-align: center;
+    height: 25rem;
+    width: 33rem;
+}
+
+.key-features{
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.features{
+    padding-bottom: 0.5rem;
+}
+
+.forh1{
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+.forbutton{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.headingheadddd
+{
+    font-weight: 650;
+}
+
+.textSelect
+{
+    text-align: left;
+}
