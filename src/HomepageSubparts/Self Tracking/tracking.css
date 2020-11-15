@@ -104,3 +104,26 @@ padding: 2.8% 0 2.8% 0;
 {
     text-align: left;
 }
+
+.OptionDivision{
+    padding: 0 5%;
+}
+
+.feelingText{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Recursive', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.imageButtons{
+    padding-left: 20rem;
+}
+
+.link {
+    color: #FFF;
+  }
+  .link:hover {
+    color:gainsboro;
+  }

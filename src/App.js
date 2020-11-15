@@ -10,6 +10,7 @@ import FirstTest from "./HomepageSubparts/Assessment/src/index-assessment";
 import SecondTest from "./HomepageSubparts/Assessment/src/App-assessment-two";
 import SelfTrack from "./HomepageSubparts/Self Tracking/welcome";
 import TypeOfDisorder from "./HomepageSubparts/Self Tracking/disorderType";
+
  
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Route path="/depressionTest" component={SecondTest}></Route>
       <Route path="/welcome" component={SelfTrack}></Route>
       <Route path="/selectoption" component={TypeOfDisorder}></Route>
+      <Route path="/Anxious" component=""></Route>
+      <Route path="/Depressed" component=""></Route>
     </div>
   );
 }

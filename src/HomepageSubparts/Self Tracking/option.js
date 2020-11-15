@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
+import {Link} from "react-router-dom";
 
 const images = [
   {
@@ -14,13 +15,17 @@ const images = [
     url:
       "https://www.boldbusiness.com/wp-content/uploads/2019/07/Founders-Depression_featured-image.jpg",
     title: "Depressed",
-    width: "30%"
+    width: "40%"
   }
 ];
+
+var string = "";
+// console.log(string);
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    justifyContent: "space-evenly",
     flexWrap: "wrap",
     minWidth: 300,
     width: "80%"
@@ -95,6 +100,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonBases() {
   const classes = useStyles();
+  // console.log("/"+image.title);
 
   return (
     <div className={classes.root}>
@@ -107,7 +113,9 @@ export default function ButtonBases() {
           style={{
             width: image.width
           }}
+          
         >
+          {string="/"+image.title}
           <span
             className={classes.imageSrc}
             style={{
@@ -116,14 +124,18 @@ export default function ButtonBases() {
           />
           <span className={classes.imageBackdrop} />
           <span className={classes.imageButton}>
+            
+            
+            
             <Typography
               component="span"
               variant="subtitle1"
               color="inherit"
-              className={classes.imageTitle}
-            >
+              className={classes.imageTitle}>
+              <Link className="link" to={string}>
               {image.title}
               <span className={classes.imageMarked} />
+              </Link>
             </Typography>
           </span>
         </ButtonBase>
