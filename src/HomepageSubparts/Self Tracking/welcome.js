@@ -27,7 +27,7 @@ function greet()
                 <li class="features">Using technology to aid issues centered around stress/anxiety/depression.</li>
             </ul>
             <div class="forbutton">
-            <Link to="/selectoption"><Button style={{backgroundColor: "#f98282"}} variant="contained" color="primary">Get Started</Button></Link>
+            <Link to="/selectoption" className="round-button">Get Started</Link>
             </div>
             </div>
             <div className="welcome-area image-area">

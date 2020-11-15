@@ -127,3 +127,16 @@ padding: 2.8% 0 2.8% 0;
   .link:hover {
     color:gainsboro;
   }
+
+.level-text{
+    font-size: 1.5rem;
+    
+    padding-bottom: 0.8rem;
+    padding-top: 1.2rem;
+}
+
+.nextButton{
+    text-align: center;
+    padding-top: 2rem;
+    margin-right: 15rem;
+}

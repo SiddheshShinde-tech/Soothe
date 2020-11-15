@@ -1,7 +1,6 @@
 import React from "react";
 import image from "./image/logo6.png" ;
 import "./tracking.css";
-import {Link} from "react-router-dom";
 import ButtonBases from "./option";
 
 function choose()
@@ -17,9 +16,6 @@ function choose()
             <div className="center OptionDivision">    
    
                 <h3 class="feelingText">I'm feeling ......</h3>
-                {/* <div class="forbutton"> */}
-                {/* <Link to="/selectoption"><Button style={{backgroundColor: "#f98282"}} variant="contained" color="primary"> Get Started</Button></Link> */}
-                {/* </div> */}  
                 <div class="imageButtons">
                     <ButtonBases />
                 </div>
