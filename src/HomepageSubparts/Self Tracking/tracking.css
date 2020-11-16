@@ -140,3 +140,22 @@ padding: 2.8% 0 2.8% 0;
     padding-top: 2rem;
     margin-right: 15rem;
 }
+
+.formula{
+    background-color:#dedede;
+    width: 60%;
+    margin-left: 7.5rem;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.text1{
+    padding-top: 2rem;
+}
+
+.text2{
+    padding-top: 2rem;
+}
