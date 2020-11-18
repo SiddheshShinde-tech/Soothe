@@ -204,5 +204,11 @@ padding: 2.8% 0 2.8% 0;
 
 .special
 {
-    /* position: fixed; */
+    position: fixed;
+}
+
+.rewardText
+{
+    padding-top: 2rem;
+    font-weight: bold;
 }

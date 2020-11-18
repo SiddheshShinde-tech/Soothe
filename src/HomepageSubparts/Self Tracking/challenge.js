@@ -35,7 +35,7 @@ function canyouDoIt()
                                 </div>
                             </div>
                             <div class="center">
-                            <Link to="/challenge" className="round-button">Next</Link>
+                            <Link to="/Reward" className="round-button">Next</Link>
                             </div>
                         </div>
                             <div className="welcome-area image-area">
