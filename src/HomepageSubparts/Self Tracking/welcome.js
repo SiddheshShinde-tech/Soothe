@@ -2,7 +2,6 @@ import React from "react";
 import "./tracking.css";
 import image from "./image/logo6.png" ;
 import welcome from "./image/doctor-welcome.jpg"
-import Button from '@material-ui/core/Button';
 import {Link} from "react-router-dom";
 
 function greet()

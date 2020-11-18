@@ -25,7 +25,7 @@ function swags()
             <CheckBoxReward />
 
             <div class="forbutton">
-            <Link to="" className="round-button">Next</Link>
+            <Link to="/CheckBack" className="round-button">Next</Link>
             </div>
             </div>
             <div className="welcome-area image-area">

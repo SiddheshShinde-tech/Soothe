@@ -13,6 +13,7 @@ import TypeOfDisorder from "./HomepageSubparts/Self Tracking/disorderType";
 import LevelAnxiety from "./HomepageSubparts/Self Tracking/level";
 import Challenge from "./HomepageSubparts/Self Tracking/challenge";
 import Reward from "./HomepageSubparts/Self Tracking/reward";
+import CheckBack from "./HomepageSubparts/Self Tracking/checkback";
  
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/Depressed" component=""></Route>
       <Route path="/Challenge" component={Challenge}></Route>
       <Route path="/Reward" component={Reward}></Route>
+      <Route path="/CheckBack" component={CheckBack}></Route>
     </div>
   );
 }

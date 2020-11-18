@@ -88,6 +88,7 @@ padding: 2.8% 0 2.8% 0;
 .forh1{
     font-weight: bolder;
     padding-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 .forbutton{
@@ -211,4 +212,21 @@ padding: 2.8% 0 2.8% 0;
 {
     padding-top: 2rem;
     font-weight: bold;
+}
+
+.timetext
+{
+    padding-top: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.timebutton
+{
+    margin-top: 2rem;
+}
+
+.timetext2
+{
+    padding-top: 1rem;
 }

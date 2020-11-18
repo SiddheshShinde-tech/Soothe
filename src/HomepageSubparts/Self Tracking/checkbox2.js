@@ -70,7 +70,7 @@ export default function CheckboxesReward() {
                 name="mobilegame"
               />
             }
-            label="Mobiule Game"
+            label="Mobile Game"
           />
           
           <FormControlLabel
