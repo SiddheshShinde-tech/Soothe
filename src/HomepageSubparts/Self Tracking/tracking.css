@@ -230,3 +230,49 @@ padding: 2.8% 0 2.8% 0;
 {
     padding-top: 1rem;
 }
+
+.salutationtext{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.quotetext{
+    margin-top: 1rem;
+    font-family: 'Qwigley', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.slidertexttttttttttt
+{
+    color: gray;
+    margin-top: -1rem;
+}
+
+.jobtext
+{
+    font-weight: 700;
+    margin-top: 1.2rem;
+}
+
+.reviewText
+{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.handlesidddddddd
+{
+    margin-left: 7.3rem;
+    padding-top: 1.7rem;
+}
+
+.finaletext
+{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.4rem;
+}

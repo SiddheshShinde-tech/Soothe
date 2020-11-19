@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import FormControl from "@material-ui/core/FormControl";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import FormHelperText from "@material-ui/core/FormHelperText";
 import Checkbox from "@material-ui/core/Checkbox";
 import "./tracking.css";
 
@@ -16,9 +15,15 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function CheckboxesReward() {
+// const [Store, setStore] = useState(0);
+var temp=0;
+
+function CheckboxesReward() {
   const classes = useStyles();
-  const [state, setState] = React.useState({
+  
+  const [Store, setStore] = useState(0);
+  temp=Store;
+  const [state, setState] = useState({
     icecream: false,
     volunteer: false,
     personalpraise: false,
@@ -28,7 +33,9 @@ export default function CheckboxesReward() {
   });
 
   const handleChange = (event) => {
+    setStore(event.target.value);
     setState({ ...state, [event.target.name]: event.target.checked });
+    // temp=Store;
   };
 
   const { icecream, volunteer, personalpraise, mobilegame, buy, nap } = state;
@@ -39,14 +46,15 @@ export default function CheckboxesReward() {
         <FormGroup>
           <FormControlLabel
             control={
-              <Checkbox checked={icecream} onChange={handleChange} name="icecream" />
+              <Checkbox checked={icecream} onChange={handleChange} name="icecream" value={1} />
             }
             label=" Ice Cream"
           />
           
+
           <FormControlLabel
             control={
-              <Checkbox checked={volunteer} onChange={handleChange} name="volunteer" />
+              <Checkbox checked={volunteer} onChange={handleChange} name="volunteer" value={2}/>
             }
             label="Volunteer"
           />
@@ -57,6 +65,7 @@ export default function CheckboxesReward() {
                 checked={personalpraise}
                 onChange={handleChange}
                 name="personalpraise"
+                value={3}
               />
             }
             label="Personal Praise"
@@ -68,6 +77,7 @@ export default function CheckboxesReward() {
                 checked={mobilegame}
                 onChange={handleChange}
                 name="mobilegame"
+                value={4}
               />
             }
             label="Mobile Game"
@@ -79,6 +89,7 @@ export default function CheckboxesReward() {
                 checked={buy}
                 onChange={handleChange}
                 name="buy"
+                value={5}
               />
             }
             label="Buy something nice"
@@ -86,7 +97,7 @@ export default function CheckboxesReward() {
           
           <FormControlLabel
             control={
-              <Checkbox checked={nap} onChange={handleChange} name="nap" />
+              <Checkbox checked={nap} onChange={handleChange} name="nap" value={6} />
             }
             label="Nap"
           />
@@ -96,3 +107,7 @@ export default function CheckboxesReward() {
     </div>
   );
 }
+
+
+export default CheckboxesReward;
+export {temp};

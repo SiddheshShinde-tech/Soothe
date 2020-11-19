@@ -28,7 +28,7 @@ function canyouDoIt()
                             <div className="colour-box">
                                 <div className="credittttt">
                                     <h5 className="creditText">Spend Credits on       </h5>
-                                    <p className="paratext">x Anxiety Credits</p>
+                                    <p className="paratext">6 Anxiety Credits</p>
                                 </div>
                                 <div className="checkboxesssss">
                                     <CheckBox />

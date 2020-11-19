@@ -23,7 +23,7 @@ function whatsup()
             <p className="timetext">Set a time today :</p>
             <KeyboardTimePickerExample />
             <div class="forbutton">
-            <Link to="" className="round-button timebutton">Start Challenge</Link>
+            <Link to="/Letsdoit" className="round-button timebutton">Start Challenge</Link>
             </div>
             </div>
             <div className="welcome-area image-area">

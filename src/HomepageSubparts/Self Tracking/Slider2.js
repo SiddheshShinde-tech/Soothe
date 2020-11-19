@@ -46,34 +46,24 @@ function handleThe(event)
   console.log("Hey there");
 }
 
-export default function CustomizedSlider() {
+export default function CustoizedSlider() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <div className={classes.margin} />
       {/* <Typography className="sliderLevel" gutterBottom>How anxious are you ?</Typography> */}
-      <h2 class="level-text">How anxious are you ?</h2>
+      <p className="slidertexttttttttttt">Please rate your anxiety levels after having spent your anxiety credits</p>
       <PrettoSlider
         valueLabelDisplay="auto"
         aria-label="pretto slider"
-        defaultValue={6}
+        defaultValue={2}
         step={1}
         min={1}
         max={10}
         onChange={handleThe}
       />
 
-      {/* <Typography className="sliderLevel" gutterBottom>Pick an ideal anxiety level ?</Typography> */}
-      <h2 class="level-text">Pick an ideal anxiety level ?</h2>
-      <PrettoSlider
-        valueLabelDisplay="auto"
-        aria-label="pretto slider"
-        defaultValue={2}
-        step={1}
-        min={0}
-        max={9}
-      />
     </div>
   );
 }

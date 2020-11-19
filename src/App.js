@@ -14,6 +14,8 @@ import LevelAnxiety from "./HomepageSubparts/Self Tracking/level";
 import Challenge from "./HomepageSubparts/Self Tracking/challenge";
 import Reward from "./HomepageSubparts/Self Tracking/reward";
 import CheckBack from "./HomepageSubparts/Self Tracking/checkback";
+import Objective from "./HomepageSubparts/Self Tracking/objective";
+import ShowDown from "./HomepageSubparts/Self Tracking/final";
  
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
       <Route path="/Challenge" component={Challenge}></Route>
       <Route path="/Reward" component={Reward}></Route>
       <Route path="/CheckBack" component={CheckBack}></Route>
+      <Route path="/Letsdoit" component={Objective}></Route>
+      <Route path="/Showdown" component={ShowDown}></Route>
     </div>
   );
 }
