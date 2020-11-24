@@ -16,6 +16,7 @@ import Reward from "./HomepageSubparts/Self Tracking/reward";
 import CheckBack from "./HomepageSubparts/Self Tracking/checkback";
 import Objective from "./HomepageSubparts/Self Tracking/objective";
 import ShowDown from "./HomepageSubparts/Self Tracking/final";
+import Therapymainpage from "./HomepageSubparts/Therapy/therapymainpage";
  
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/signup" component={SignInSide}></Route>
       <Route path="/homepage" component={HomepageMain}></Route>
       <Route path="/expertdoctors" component={Doctormainpage}></Route>
+      <Route path="/therapy" component={Therapymainpage}></Route>
       <Route path="/post/:postId" component={Post} />
       <Route path="/anxietyTest" component={FirstTest}></Route>
       <Route path="/depressionTest" component={SecondTest}></Route>
