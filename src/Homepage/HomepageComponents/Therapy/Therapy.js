@@ -1,7 +1,6 @@
 import React from 'react'
 import './therapy.css'
 import therapyHome from '../../HomepageAssets/therapyHome.jpg'
-import { Link } from 'react-router-dom'
 
 
 const Therapy = props => {
@@ -21,7 +20,7 @@ const Therapy = props => {
             <p className="TherapyDescriptionContent">Then take a appoint of yourself with the therapies and nudge yourself towards relaxation and calmness.</p>
             <br></br>
             <div>
-            <Link to="/therapy" class="round-button">Take Therapy</Link>
+          <a href="http://example.com" class="round-button">Take Therapy</a>
         </div>
           </div>
         </div>
