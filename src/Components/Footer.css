@@ -1,7 +1,7 @@
 .main-footer {
   color: black;
   background-color: #fa9a9a;
-  
+
   padding-top: 2em;
   padding-bottom: 1em;
   position: relative;
@@ -9,7 +9,7 @@
 }
 .footer2 {
   /* color: white; */
-  color:black;
+  color: black;
   background-color: #f98282;
   padding-top: 1em;
   padding-bottom: 0em;
@@ -22,11 +22,12 @@
 }
 .Footer-img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
+  height: 80vh;
 }
 .Footer-img-content {
   display: flex;
@@ -34,7 +35,13 @@
   justify-content: flex-start;
   align-items: center;
   padding: 40px;
-  font-size: 2.75rem;
+  padding-left: 7rem;
+  font-size: 3.5rem;
+  padding-top: 10rem;
+}
+.container2 {
+  padding-left: 3rem;
+  padding-right: 2.5rem;
 }
 @media (min-width: 650px) {
   .Footer-img {
@@ -42,6 +49,6 @@
   }
   .footer-img-content {
     align-items: flex-end;
-    justify-content: center;
+    justify-content: right;
   }
 }

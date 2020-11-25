@@ -21,7 +21,13 @@ function Main() {
 
       <div className="page-container">
         <div className="content-wrap"></div>
-        <div className="Footer-img" style={{backgroundImage: `url(${Img})`}}>
+        <div
+          className="Footer-img"
+          style={{
+            backgroundImage: `url(${Img})`,
+            height: "100vh",
+          }}
+        >
           <div className="Footer-img-content">
             <p>Get in touch</p>
             <button type="button" class="btn btn-outline-info btn-sm">
