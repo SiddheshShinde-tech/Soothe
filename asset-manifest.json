@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.27bad6d4.chunk.css",
-    "main.js": "./static/js/main.21b81e20.chunk.js",
-    "main.js.map": "./static/js/main.21b81e20.chunk.js.map",
+    "main.css": "./static/css/main.2dbf81ef.chunk.css",
+    "main.js": "./static/js/main.734c5805.chunk.js",
+    "main.js.map": "./static/js/main.734c5805.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.6c74fe98.js",
     "runtime-main.js.map": "./static/js/runtime-main.6c74fe98.js.map",
-    "static/js/2.1158ddf1.chunk.js": "./static/js/2.1158ddf1.chunk.js",
-    "static/js/2.1158ddf1.chunk.js.map": "./static/js/2.1158ddf1.chunk.js.map",
+    "static/js/2.255f8815.chunk.js": "./static/js/2.255f8815.chunk.js",
+    "static/js/2.255f8815.chunk.js.map": "./static/js/2.255f8815.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.aa3ea6d499335299a832a0ab4ed13f0e.js": "./precache-manifest.aa3ea6d499335299a832a0ab4ed13f0e.js",
+    "precache-manifest.478d579843f433ed6f2cf4ca7e1175f9.js": "./precache-manifest.478d579843f433ed6f2cf4ca7e1175f9.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.27bad6d4.chunk.css.map": "./static/css/main.27bad6d4.chunk.css.map",
-    "static/js/2.1158ddf1.chunk.js.LICENSE.txt": "./static/js/2.1158ddf1.chunk.js.LICENSE.txt",
+    "static/css/main.2dbf81ef.chunk.css.map": "./static/css/main.2dbf81ef.chunk.css.map",
+    "static/js/2.255f8815.chunk.js.LICENSE.txt": "./static/js/2.255f8815.chunk.js.LICENSE.txt",
     "static/media/Healthy2.png": "./static/media/Healthy2.4536519a.png",
     "static/media/Img.png": "./static/media/Img.fd8ce54c.png",
     "static/media/Mild2.png": "./static/media/Mild2.73d3ae50.png",
@@ -33,7 +33,6 @@
     "static/media/doctors.jpg": "./static/media/doctors.1470a573.jpg",
     "static/media/doctorsHome.jpg": "./static/media/doctorsHome.2b15751d.jpg",
     "static/media/games.jpg": "./static/media/games.8c5f2a3f.jpg",
-    "static/media/gamesHome.jpg": "./static/media/gamesHome.8fd66329.jpg",
     "static/media/index-assessment.css": "./static/media/icon-check.4cffa739.svg",
     "static/media/logo5.png": "./static/media/logo5.95c4cfa8.png",
     "static/media/logo6.png": "./static/media/logo6.aa516f83.png",
@@ -55,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6c74fe98.js",
-    "static/js/2.1158ddf1.chunk.js",
-    "static/css/main.27bad6d4.chunk.css",
-    "static/js/main.21b81e20.chunk.js"
+    "static/js/2.255f8815.chunk.js",
+    "static/css/main.2dbf81ef.chunk.css",
+    "static/js/main.734c5805.chunk.js"
   ]
 }
