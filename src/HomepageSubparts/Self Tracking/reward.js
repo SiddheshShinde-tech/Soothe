@@ -18,7 +18,7 @@ function swags()
     <div className="MainDivisionSid">
         <div className="SubDivision">
             <div className="welcome-area text-area">
-            <h3 class="forh1">Reward</h3>
+            <h3 class="forh1 challengeeeee">Reward</h3>
             <p>We encourage you to pick a reward to award yourself with after you've spent your anxiety credits. This would reinforce the positive habit of dealing with anxiety in an actionable manner</p>
             <p className="rewardText">Pick a reward (Choose one)</p>
             

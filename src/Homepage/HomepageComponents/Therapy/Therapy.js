@@ -9,7 +9,7 @@ const Therapy = props => {
       <div className="TherapyMainContainer">
         <div className="AssignmentContainer" style={{boxSizing: 'border-box'}}> 
         <div className="cardHeader3">
-          <h2>Therapy</h2>
+          <h2 className="siddheshfontheading">Therapies and Games</h2>
         </div>
         <div className="TherapyCardContent">
           <div className="TherapyImageContainer">

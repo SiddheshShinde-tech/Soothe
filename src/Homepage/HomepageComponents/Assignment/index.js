@@ -8,7 +8,7 @@ const Assignment = props => {
       <div className="AssignmentMainContainer">
         <div className="AssignmentContainer" style={{boxSizing: 'border-box'}}> 
         <div className="cardHeader2">
-          <h2>Assessment</h2>
+          <h2 className="siddheshfontheading">Assessment</h2>
         </div>
         <div className="AssignmentCardContent">
           <div className="AssignmentImageContainer">

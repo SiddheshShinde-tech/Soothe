@@ -42,7 +42,16 @@
   text-align: center;
   width: 70vw;
   justify-content: end;
-  margin-right: 2rem;
+  /* margin-right: 0rem; */
+  /* margin-left: 7rem;
+  margin-right: -2rem; */
+  margin-right: -35rem;
+  padding: 0px;
+  margin-left: 0px;
+  /* padding-left: 7rem; */
+
+  margin-left: 4.0rem;
+  
 }
 
 .nav-links {
@@ -52,7 +61,7 @@
 }
 
 .nav-links:hover {
-  background-color: #5d73c9;
+  background-color: #fed0d0;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -69,7 +78,12 @@
   display: none;
 }
 .signup-nav {
-  padding-left: 68rem;
+  padding-left: 0rem;
+  padding-right: 0px;
+
+  margin-left: 35rem;
+  /* padding: 0px; */
+  /* margin-right: -7rem;  */
 }
 .signin-nav {
   padding-left: 55rem;
@@ -89,6 +103,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    /* margin-left: 9rem; */
   }
 
   .nav-menu.active {

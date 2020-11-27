@@ -8,7 +8,7 @@ const Doctors = props => {
       <div className="DoctorsMainContainer">
         <div className="DoctorsContainer" style={{boxSizing: 'border-box'}}> 
         <div className="cardHeader9">
-          <h2>Doctors</h2>
+          <h2 className="siddheshfontheading">Doctors</h2>
         </div>
         <div className="DoctorsCardContent">
           <div className="DoctorsImageContainer">

@@ -18,7 +18,7 @@ function whatsup()
         <div className="MainDivisionSid">
         <div className="SubDivision">
             <div className="welcome-area text-area">
-            <h3 className="forh1">Check Back With Us</h3>
+            <h3 className="forh1 challengeeeee">Check Back With Us</h3>
             <p className="timetext2">Set a time today to spend your anxiety credits by and check back with in with us! We'll help to re-evaluate your anxiety levels again.</p>
             <p className="timetext">Set a time today :</p>
             <KeyboardTimePickerExample />
@@ -27,7 +27,7 @@ function whatsup()
             </div>
             </div>
             <div className="welcome-area image-area">
-                <img class="welcome-image" src=""></img>
+                <img class="welcome-image" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Alarm_Clock_Animation_High_Res.png"></img>
             </div>
         </div>
     </div>

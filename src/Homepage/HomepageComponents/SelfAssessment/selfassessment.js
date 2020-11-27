@@ -7,15 +7,15 @@ const SelfAssessment = props => {
     return (
       <div className="SelfMainContainer">
         <div className="SelfContainer" style={{boxSizing: 'border-box'}}> 
-        <div className="cardHeader6">
-          <h2>Self Assessment</h2>
+        <div className="cardHeadersiddhesh">
+          <h2 className="siddheshfontheading">Self Tracking and Assessment</h2>
         </div>
         <div className="SelfCardContent">
           <div className="SelfImageContainer">
             <img className="SelfImage" src={doctorsHome}></img>
           </div>
           <div className="SelfDescription">
-            <p className="SelfDescriptionContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className="SelfDescriptionContent">A portal that gamifies stress/anxiety/depression management in an actionable manner to provide relief. It quantifies the difference in a user's actual and ideal stress/anxiety/depression level as credits to be spent on a prescribed set of activities before the day ends. By doing so, users inadvertently take actionable steps to deal with their condition.</p>
             <br></br>
             <div>
           {/* <a href="http://example.com" class="round-button">Take Therapy</a> */}

@@ -21,14 +21,17 @@
     width: 60%;
 }
 .cardHeader9{
+    font-family: 'Texturina', serif;
     text-transform: capitalize;
     font-size: 22px;
     box-sizing: border-box;
     letter-spacing: 2px;
     color: #333;
     text-align: right;
-    padding-right: 450px;
+    padding-right: 555px;
+    margin-bottom: 1.3rem;
 }
+    
 .DoctorsDescriptionContent{
     font-size: 20px;
     color: black;

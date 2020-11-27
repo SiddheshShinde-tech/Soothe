@@ -20,15 +20,18 @@
 .SelfDescription{
     width: 60%;
 }
-.cardHeader6{
+.cardHeadersiddhesh{
     text-transform: capitalize;
     font-size: 22px;
-    padding-right: 595px;
+    /* padding-right: 395px; */
     box-sizing: border-box;
     letter-spacing: 2px;
     color: #333;
-    text-align: right;
-    padding-left: 55px;
+    /* text-align: right; */
+    margin-left: 29rem;
+    margin-bottom: 1.7rem;
+    margin-top: -0.5rem;
+
 }
 .SelfDescriptionContent{
     font-size: 20px;

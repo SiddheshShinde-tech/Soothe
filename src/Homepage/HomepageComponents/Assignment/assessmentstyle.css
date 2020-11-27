@@ -11,6 +11,7 @@
     margin-bottom:0px;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-top: -2.5rem;
 }
 .Assignmentbtn{
     display: flex;
@@ -31,12 +32,12 @@
 .cardHeader2{
     text-transform: capitalize;
     font-size: 22px;
-    padding-right: 595px;
+    padding-right: 490px;
     box-sizing: border-box;
     letter-spacing: 2px;
     color: #333;
     text-align: right;
-
+    /* margin-bottom: 1.5rem; */
 }
 
 .AssignmentDescriptionContent{
@@ -84,4 +85,13 @@
     transform: scale(1.05); 
     
 
+}
+
+.siddheshfontheading
+{
+    font-family: 'Texturina', serif;
+    margin-bottom: 1.3rem;
+    font-size: 2.1rem;
+    /* padding-right: -6rem; */
+    /* padding-left: 2rem; */
 }

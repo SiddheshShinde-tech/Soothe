@@ -110,13 +110,13 @@ are functioning within the healthy range for the general population.</h3>
       <br></br>
       <li>If your worry or panic feels out of control, and especially if you feel like you may hurt yourself, then talking to someone is really important. Get immediate assistance from the Depression Helpline 0800 111 757.</li>
       <br></br>
-      <li>Buttons on Blogs,Games,etc.</li>
+      {/* <li>Buttons on Blogs,Games,etc.</li> */}
       </ul>
       </div>
       
     </CSSTransitionGroup>
 
-    <CSSTransitionGroup
+    {/* <CSSTransitionGroup
       className="container result"
       component="div"
       transitionName="fade"
@@ -131,7 +131,7 @@ are functioning within the healthy range for the general population.</h3>
         
       </div>
       
-    </CSSTransitionGroup>
+    </CSSTransitionGroup> */}
     </div>
   );
 }

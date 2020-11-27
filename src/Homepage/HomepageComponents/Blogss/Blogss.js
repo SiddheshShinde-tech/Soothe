@@ -8,7 +8,7 @@ class Blogss extends Component {
       <div className="BlogssMainContainer">
         <div className="BlogssContainer" style={{boxSizing: "border-box"}}>
           <div className="cardHeader4">
-            <h2>Blogs</h2>
+            <h2 className="siddheshfontheading">Blogs</h2>
           </div>
           <div className="BlogssCardContent">
             <div className="Description">

@@ -21,7 +21,7 @@ class Navbar extends Component {
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
           </div>
-          {/* <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
                             <li className="navba-links" key={index}>
@@ -31,7 +31,7 @@ class Navbar extends Component {
                             </li>
                         )
                     })}
-                </ul> */}
+                </ul>
           {/* 
           <div className="signin-nav">
             <Link to="/signup">

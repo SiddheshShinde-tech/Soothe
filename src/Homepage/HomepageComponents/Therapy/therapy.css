@@ -23,12 +23,14 @@
 .cardHeader3{
     text-transform: capitalize;
     font-size: 22px;
-    padding-right: 445px;
+    padding-right: 305px;
     box-sizing: border-box;
     letter-spacing: 2px;
     color: #333;
     text-align: right;
     padding-left: 55px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 .TherapyDescriptionContent{
     font-size: 20px;
@@ -70,4 +72,12 @@
     color: white;
     text-decoration: none;
     transform: scale(1.05);
+}
+
+.siddheshfontheading
+{
+    font-family: 'Texturina', serif;
+    margin-bottom: 1.3rem;
+    font-size: 2.1rem;
+    /* margin-left: 5rem; */
 }

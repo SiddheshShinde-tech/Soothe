@@ -65,31 +65,31 @@ export default function ClippedDrawer() {
                     </ListItemIcon>
                     <ListItemText primary="Assessment" />
                   </ListItem>
-                  <Link to="/therapy">
+                  
                     <ListItem button key="Therapies and Games">
                       <ListItemIcon>
                         <GamesIcon />
                       </ListItemIcon>
                       <ListItemText primary="Therapies and Games" />
                     </ListItem>
-                  </Link>
+                  
 
-                  <Link to="/post/1">
+                  {/* <Link to="/post/1"> */}
                     <ListItem button key="Blogs">
                       <ListItemIcon>
                         <ChromeReaderModeIcon />
                       </ListItemIcon>
                       <ListItemText primary="Blogs" />
                     </ListItem>
-                  </Link>
-                  <Link to="/expertdoctors">
+                  {/* </Link> */}
+                  
                     <ListItem button key="Doctors">
                       <ListItemIcon>
                         <LocalHospitalIcon />
                       </ListItemIcon>
                       <ListItemText primary="Doctors" />
                     </ListItem>
-                  </Link>
+                 
 
                   <ListItem button key="Track your Medication">
                     <ListItemIcon>
@@ -97,14 +97,14 @@ export default function ClippedDrawer() {
                     </ListItemIcon>
                     <ListItemText primary="Track your Medication" />
                   </ListItem>
-                  <Link to="/welcome">
+                  {/* <Link to="/welcome"> */}
                     <ListItem button key="Self Assessment">
                       <ListItemIcon>
                         <TrackChangesIcon />
                       </ListItemIcon>
                       <ListItemText primary="Self Assessment" />
                     </ListItem>
-                  </Link>
+                  {/* </Link> */}
                 </List>
               </div>
             </div>

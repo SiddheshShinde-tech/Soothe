@@ -175,12 +175,14 @@ padding: 2.8% 0 2.8% 0;
 }
 
 .paratext{
+    font-family: 'Texturina', serif;
     text-align: left;
     font-weight: 100;
     font-size: 1rem;
     color: gray;
     margin-top: -1.4rem;
     padding-left: 28.5rem;
+    font-size: 0.95rem;
 }
 
 .helptext{
@@ -196,7 +198,9 @@ padding: 2.8% 0 2.8% 0;
 }
 
 .challengeeeee{
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    font-family: 'Texturina', serif;
+    font-size: 2.1rem;
 }
 
 .colour-box{
@@ -206,6 +210,7 @@ padding: 2.8% 0 2.8% 0;
 .special
 {
     position: fixed;
+    /* margin-bottom: -10rem; */
 }
 
 .rewardText
