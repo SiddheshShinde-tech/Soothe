@@ -1,59 +1,64 @@
-.Headtherapy{
-    width: 100%;
-    height: 150px;
-    background: #f98282;
+/* .Headtherapy {
+  width: 100%;
+  height: 150px;
+  background: #f98282;
+} */
+h1 {
+  color: white;
 }
-h1{
-    color: white;
-    
+.MainDivisiontherapy {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
-.MainDivisiontherapy{
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+.SubDivisiontherapy {
+  display: flex;
+  justify-content: space-evenly;
 }
-.SubDivisiontherapy{
-    display: flex;
-    justify-content: space-evenly;
+.Therapy-header1 {
+  background-color: #f98282;
+  padding: 20px;
+  color: white;
+  text-align: center;
 }
-.MainCardtherapy{
-    width: 45%;
-    height: 350px;
-    margin-top: 20px;
-    box-shadow: 0 0 3px gray;
-    padding-bottom: 20px;
+.MainCardtherapy {
+  width: 45%;
+  height: 350px;
+  margin-top: 20px;
+  box-shadow: 0 0 3px gray;
+  padding-bottom: 20px;
 }
 
-.Card-imagetherapy{
-    height: 85%;
+.Card-imagetherapy {
+  height: 85%;
 }
-.therapyimage{
-    width: 100%;
-    height: 100%;
+.therapyimage {
+  width: 100%;
+  height: 100%;
 }
-.Card-bodytherapy{
-    margin: 13px;
-    text-align: center;
+.Card-bodytherapy {
+  margin: 13px;
+  text-align: center;
 }
 .round-button {
-    display:block;
-    width:180px;
-    height:35px;
-    line-height:35px;
-    border: 0.01px solid #f98282;
-    border-radius: 5px;
-    color:#f98282;
-    letter-spacing: 1px;
-    text-align:center;
-    text-decoration:none;
-    background: #ffffff;
-    font-size:18px;
-    font-weight:500;
-    margin: 0 auto;
+  display: block;
+  width: 180px;
+  height: 35px;
+  line-height: 35px;
+  border: 0.01px solid #f98282;
+  border-radius: 5px;
+  color: #f98282;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
 }
 .round-button:hover {
-    background: #f98282;
-    color: white;
-    text-decoration: none;
-    transform: scale(1.05); 
+  background: #f98282;
+  color: white;
+  text-decoration: none;
+  transform: scale(1.05);
 }
