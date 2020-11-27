@@ -5,38 +5,41 @@ import {Link} from "react-router-dom";
 import { temp } from "./checkbox2";
 import FinalSlider from "./Slider2";
 
-var salutation="";
-var quote="";
+var salutation="Reward yourself now with a/an icecream for the hard work you've put in !!";
+var quote="Life is like an ice cream, enjoy it before it melts.";
 
-if(temp==1)
-    {
-        salutation="Reward yourself now with a/an icecream for the hard work you've put in !!";
-        quote='Life is like an ice cream, enjoy it before it melts."';
-    }
-    else if(temp==2)
-    {
-        salutation="Reward yourself now with a/an volunteer for the hard work you've put in !!";
-        quote='"I am only one, but I am one. I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do. Volunteers do not necessarily have the time; they just have the heart."';
-    }
-    else if(temp==3)
-    {
-        salutation="Reward yourself now by giving a pat to yourself for the hard work you've put in !!";
-        quote="'Much of someone's real character lies in what they don't say about themselves.' 'Self-praise is the first sign of insecurity.' Some things sound better if they don't come from you.'";
-    }
-    else if(temp==4)
-    {
-        salutation="Reward yourself now by playing a Android Game for the hard work you've put in !!";
-        quote='"It was rather difficult to throw a game when you had no idea what you were doing to win it in the first place. ..."';
-    }
-    else if(temp==5)
-    {
-        salutation="Reward yourself now by going for Shopping for the hard work you've put in !!";
-        quote='"There is a little bit of magic found in buying something new. It is instant gratification, a quick fix."';
-    }
-    else{
-        salutation="Reward yourself now with a short nap for the hard work you've put in !!";
-        quote='"Think what a better world it would be if we all, the whole world, had cookies and milk about three o clock every afternoon and then lay down on our blankets for a nap"';
-    }
+console.log("hey there");
+console.log(temp);
+
+// if(temp==1)
+//     {
+//         salutation="Reward yourself now with a/an icecream for the hard work you've put in !!";
+//         quote='Life is like an ice cream, enjoy it before it melts."';
+//     }
+//     else if(temp==2)
+//     {
+//         salutation="Reward yourself now with a/an volunteer for the hard work you've put in !!";
+//         quote='"I am only one, but I am one. I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do. Volunteers do not necessarily have the time; they just have the heart."';
+//     }
+//     else if(temp==3)
+//     {
+//         salutation="Reward yourself now by giving a pat to yourself for the hard work you've put in !!";
+//         quote="'Much of someone's real character lies in what they don't say about themselves.' 'Self-praise is the first sign of insecurity.' Some things sound better if they don't come from you.'";
+//     }
+//     else if(temp==4)
+//     {
+//         salutation="Reward yourself now by playing a Android Game for the hard work you've put in !!";
+//         quote='"It was rather difficult to throw a game when you had no idea what you were doing to win it in the first place. ..."';
+//     }
+//     else if(temp==5)
+//     {
+//         salutation="Reward yourself now by going for Shopping for the hard work you've put in !!";
+//         quote='"There is a little bit of magic found in buying something new. It is instant gratification, a quick fix."';
+//     }
+//     else{
+//         salutation="Reward yourself now with a short nap for the hard work you've put in !!";
+//         quote='"Think what a better world it would be if we all, the whole world, had cookies and milk about three o clock every afternoon and then lay down on our blankets for a nap"';
+//     }
 
 function showdown()
 {

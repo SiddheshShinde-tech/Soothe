@@ -16,13 +16,14 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 // const [Store, setStore] = useState(0);
-var temp=0;
+var temp;
 
 function CheckboxesReward() {
   const classes = useStyles();
   
   const [Store, setStore] = useState(0);
   temp=Store;
+  console.log(temp);
   const [state, setState] = useState({
     icecream: false,
     volunteer: false,
@@ -107,7 +108,6 @@ function CheckboxesReward() {
     </div>
   );
 }
-
 
 export default CheckboxesReward;
 export {temp};
